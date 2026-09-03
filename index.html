@@ -1,8 +1,14 @@
-<!DOCTYPE html>
+             <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="A responsive Creamy Garlic Pasta recipe card built using HTML5 and CSS3."
+    >
 
     <title>Creamy Garlic Pasta | Recipe Card</title>
 
@@ -15,65 +21,129 @@
 
         <article class="recipe-card">
 
-            <!-- Recipe Image -->
+            <!-- ================================
+                 RECIPE IMAGE
+            ================================= -->
+
             <figure class="recipe-image">
+
                 <img
-                    src="https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=1200&q=85"
-                    alt="Creamy garlic pasta served in a bowl"
+                    src="assets/creamy-garlic-pasta.svg"
+                    alt="Creamy garlic pasta served with herbs"
                 >
 
                 <figcaption>
                     Creamy Garlic Pasta
                 </figcaption>
+
             </figure>
 
 
-            <!-- Recipe Content -->
+            <!-- ================================
+                 RECIPE CONTENT
+            ================================= -->
+
             <div class="recipe-content">
 
-                <header>
-                    <p class="tag">EASY WEEKNIGHT RECIPE</p>
+                <header class="recipe-header">
 
-                    <h1>Creamy Garlic Pasta</h1>
+                    <p class="tag">
+                        EASY WEEKNIGHT RECIPE
+                    </p>
+
+                    <h1>
+                        Creamy Garlic Pasta
+                    </h1>
 
                     <p class="description">
                         Silky, garlicky pasta finished with parmesan,
                         black pepper and fresh herbs. A simple recipe
                         that feels special without taking all evening.
                     </p>
+
                 </header>
 
 
-                <!-- Recipe Information -->
-                <div class="recipe-info">
+                <!-- ================================
+                     RECIPE INFORMATION
+                ================================= -->
 
-                    <div>
-                        <span>⏱️</span>
-                        <small>PREP</small>
-                        <strong>10 min</strong>
+                <section class="recipe-info" aria-label="Recipe information">
+
+                    <div class="info-box">
+
+                        <span class="info-icon" aria-hidden="true">
+                            ⏱
+                        </span>
+
+                        <small>
+                            PREP
+                        </small>
+
+                        <strong>
+                            10 min
+                        </strong>
+
                     </div>
 
-                    <div>
-                        <span>🍳</span>
-                        <small>COOK</small>
-                        <strong>20 min</strong>
+
+                    <div class="info-box">
+
+                        <span class="info-icon" aria-hidden="true">
+                            🍳
+                        </span>
+
+                        <small>
+                            COOK
+                        </small>
+
+                        <strong>
+                            20 min
+                        </strong>
+
                     </div>
 
-                    <div>
-                        <span>👨‍🍳</span>
-                        <small>SERVES</small>
-                        <strong>2 People</strong>
+
+                    <div class="info-box">
+
+                        <span class="info-icon" aria-hidden="true">
+                            👨‍🍳
+                        </span>
+
+                        <small>
+                            SERVES
+                        </small>
+
+                        <strong>
+                            2 People
+                        </strong>
+
                     </div>
 
-                </div>
+                </section>
 
+
+                <!-- ================================
+                     INGREDIENTS + PREPARATION
+                ================================= -->
 
                 <div class="recipe-sections">
 
-                    <!-- Ingredients -->
-                    <section>
 
-                        <h2>Ingredients</h2>
+                    <!-- INGREDIENTS -->
+
+                    <section class="ingredients-section">
+
+                        <h2>
+                            Ingredients
+                        </h2>
+
+                        <p class="section-intro">
+                            Simple ingredients for a creamy,
+                            comforting pasta.
+                        </p>
+
+                        <!-- Required unordered list -->
 
                         <ul class="ingredients">
 
@@ -122,49 +192,115 @@
                     </section>
 
 
-                    <!-- Preparation -->
-                    <section>
+                    <!-- PREPARATION -->
 
-                        <h2>Preparation</h2>
+                    <section class="preparation-section">
+
+                        <h2>
+                            Preparation
+                        </h2>
+
+                        <p class="section-intro">
+                            Follow these steps in order for the
+                            best result.
+                        </p>
+
+                        <!-- Required ordered list -->
 
                         <ol class="steps">
 
                             <li>
-                                <h3>Cook the pasta</h3>
 
-                                <p>
-                                    Boil salted water and cook the pasta
-                                    until al dente. Reserve some pasta
-                                    water before draining.
-                                </p>
+                                <div class="step-content">
+
+                                    <h3>
+                                        Cook the pasta
+                                    </h3>
+
+                                    <p>
+                                        Bring salted water to a boil.
+                                        Cook the spaghetti until al dente.
+                                        Reserve some pasta water before draining.
+                                    </p>
+
+                                </div>
+
                             </li>
 
-                            <li>
-                                <h3>Prepare the garlic</h3>
 
-                                <p>
-                                    Melt butter in a pan over medium heat.
-                                    Add minced garlic and cook until fragrant.
-                                </p>
+                            <li>
+
+                                <div class="step-content">
+
+                                    <h3>
+                                        Prepare the garlic
+                                    </h3>
+
+                                    <p>
+                                        Melt butter in a large pan over
+                                        medium heat. Add minced garlic
+                                        and cook until fragrant.
+                                    </p>
+
+                                </div>
+
                             </li>
 
-                            <li>
-                                <h3>Make the sauce</h3>
 
-                                <p>
-                                    Add cream and black pepper. Simmer
-                                    gently and stir in grated parmesan.
-                                </p>
+                            <li>
+
+                                <div class="step-content">
+
+                                    <h3>
+                                        Make the sauce
+                                    </h3>
+
+                                    <p>
+                                        Pour in the cooking cream and
+                                        add black pepper. Simmer gently,
+                                        then stir in grated parmesan.
+                                    </p>
+
+                                </div>
+
                             </li>
 
-                            <li>
-                                <h3>Combine everything</h3>
 
-                                <p>
-                                    Add pasta to the sauce and toss well.
-                                    Add pasta water if needed and finish
-                                    with fresh parsley.
-                                </p>
+                            <li>
+
+                                <div class="step-content">
+
+                                    <h3>
+                                        Combine everything
+                                    </h3>
+
+                                    <p>
+                                        Add the cooked pasta to the sauce
+                                        and toss well. Add a little reserved
+                                        pasta water if the sauce is too thick.
+                                    </p>
+
+                                </div>
+
+                            </li>
+
+
+                            <li>
+
+                                <div class="step-content">
+
+                                    <h3>
+                                        Garnish and serve
+                                    </h3>
+
+                                    <p>
+                                        Finish with fresh parsley,
+                                        a little parmesan and freshly
+                                        ground black pepper. Serve warm.
+                                    </p>
+
+                                </div>
+
                             </li>
 
                         </ol>
@@ -174,24 +310,52 @@
                 </div>
 
 
-                <!-- Chef Tip -->
+                <!-- ================================
+                     CHEF'S TIP
+                ================================= -->
+
                 <aside class="chef-tip">
 
-                    <span>✦</span>
+                    <span class="tip-icon" aria-hidden="true">
+                        ✦
+                    </span>
 
                     <p>
                         <strong>Chef's Tip:</strong>
                         Save a little pasta water before draining.
-                        It helps the sauce become glossy and creamy.
+                        The starchy water helps create a smooth,
+                        glossy and creamy sauce.
                     </p>
 
                 </aside>
 
 
-                <footer>
-                    <span>Recipe Card</span>
-                    <span>•</span>
-                    <span>HTML5 + CSS3</span>
+                <!-- ================================
+                     FOOTER
+                ================================= -->
+
+                <footer class="recipe-footer">
+
+                    <span>
+                        Veda Technology
+                    </span>
+
+                    <span aria-hidden="true">
+                        •
+                    </span>
+
+                    <span>
+                        Task 11 — Recipe Card
+                    </span>
+
+                    <span aria-hidden="true">
+                        •
+                    </span>
+
+                    <span>
+                        HTML5 + CSS3
+                    </span>
+
                 </footer>
 
             </div>
@@ -201,4 +365,5 @@
     </main>
 
 </body>
-</html>
+
+</html>       
